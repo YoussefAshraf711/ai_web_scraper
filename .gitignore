@@ -1,0 +1,37 @@
+# Virtual environments
+ai/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Binaries (old Selenium driver)
+chromedriver
+
+# Environment variables
+.env
+.env.local
+
+# Streamlit
+.streamlit/
+
+# Playwright
+playwright-report/
+test-results/

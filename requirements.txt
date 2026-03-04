@@ -1,0 +1,25 @@
+# Enterprise AI Data Extractor — Dependencies
+# =============================================
+
+# --- Scraping Engine ---
+playwright
+beautifulsoup4
+lxml
+html5lib
+
+# --- AI / LLM Layer ---
+langchain
+langchain-ollama
+langchain-core
+
+# --- Backend ---
+fastapi
+uvicorn[standard]
+
+# --- Frontend ---
+streamlit
+pandas
+requests
+
+# --- Utilities ---
+python-dotenv
